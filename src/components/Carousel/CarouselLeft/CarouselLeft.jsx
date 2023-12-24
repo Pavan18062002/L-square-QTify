@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
+// eslint-disable-next-line import/no-unresolved
 import { useSwiper } from 'swiper/react'
 import {ReactComponent as LeftArrow} from '../../../assets/leftArrow.svg'
 import styles from './CarouselLeft.module.css'

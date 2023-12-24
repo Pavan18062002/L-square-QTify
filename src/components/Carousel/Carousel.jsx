@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react'
-import 'swiper/css'
+// eslint-disable-next-line import/no-unresolved
+import 'swiper/css';
 import {Navigation} from 'swiper/modules'
+// eslint-disable-next-line import/no-unresolved
 import {Swiper,useSwiper,SwiperSlide} from 'swiper/react'
 import styles from './Carousel.module.css'
-import CarouselLeft from './CarouselLeft/CarouselLeft'
-import CarouselRight from './CarouselRight/CarouselRight'
+import CarouselLeft from './CarouselLeft/CarouselLeft.jsx'
+import CarouselRight from './CarouselRight/CarouselRight.jsx'
 
 const Controls = ({data}) => {
     let swiper = useSwiper();

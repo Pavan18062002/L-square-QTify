@@ -5,7 +5,7 @@ import styles from './App.module.css'
 import { useEffect, useState } from 'react'
 import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from './api/api'
 import Section from './components/Section/Section.jsx'
-import FilterSection from './components/FilterSection/FilterSection'
+import FilterSection from './components/FilterSection/FilterSection.jsx';
 
 function App() {
 

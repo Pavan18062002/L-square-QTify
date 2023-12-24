@@ -1,10 +1,10 @@
 // import React, { useState } from 'react'
 import styles from './FilterSection.module.css'
 import { Box, CircularProgress } from '@mui/material'
-import Card from "../Card/Card";
+import Card from "../Card/Card.jsx";
 // import CustomTabPanel from '../BasicTabs/BasicTabs'
-import Carousel from "../Carousel/Carousel";
-import BasicTabs from '../BasicTabs/BasicTabs';
+import Carousel from "../Carousel/Carousel.jsx";
+import BasicTabs from '../BasicTabs/BasicTabs.jsx';
 
 
 
